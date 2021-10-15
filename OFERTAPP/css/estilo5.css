@@ -46,6 +46,7 @@ span{
     border-bottom: .1rem dotted black;
     height: .5rem;
     width: 50%;
+    margin: .5rem;
 }
 
 /* ELEMENTOS DO HEADER*/
