@@ -17,6 +17,7 @@ main{
     height: 80%;
     margin: 1rem 2rem;
     justify-content: space-around;
+    background-color: #8CF9A6;
 }
 .link{
     justify-content: center;
@@ -37,6 +38,7 @@ nav{
     display: flex;
     flex-direction: row;
     font-family: 'Poppins', sans-serif;
+    background-color: #FA5A80;
 }
 #logo{
     position: absolute;
