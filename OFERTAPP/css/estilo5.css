@@ -53,6 +53,7 @@ nav{
     justify-content: center;
     display: flex;
     flex-direction: row;
+    font-family: 'Poppins', sans-serif;
 }
 #logo{
     position: absolute;
