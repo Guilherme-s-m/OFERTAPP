@@ -1,0 +1,54 @@
+body, html{
+    height: 100%;
+    width: 100%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    margin: .5rem 2rem 1rem 2rem;
+    justify-content: space-around;
+}
+h2{
+    font-size: 1.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.link{
+    display: flex;
+    margin-top: .5rem;
+    justify-content: center;
+}
+span{
+    border: none;
+    border-bottom: .1rem dotted black;
+    height: .5rem;
+    width: 50%;
+}
+
+/* ELEMENTOS DO HEADER*/
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#logo{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+h1{
+    margin: 0.5rem;
+    font-size: 2rem;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1.3rem;
+    align-items: center;
+}
+.topico{
+    font-size: 1.2rem;
+}

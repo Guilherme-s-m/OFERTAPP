@@ -1,0 +1,65 @@
+body, html{
+    height: 100%;
+    width: 100%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    margin: 1rem 2rem;
+}
+h2{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+.preco{
+    font-size: 1.3rem;
+    margin-top: 4rem; 
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+.botao{
+    font-size: 1.1rem;
+    margin-bottom: 5rem;
+}
+h3{
+    display: flex;
+    font-size: 1.1rem;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: column;
+    justify-content: space-between;
+}
+h4{
+    font-size: 1.3rem;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+}
+span{
+    border: none;
+    border-bottom: .1rem dotted black;
+    height: .5rem;
+    width: 50%;
+}
+
+/* ELEMENTOS DO HEADER*/
+nav{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+#logo{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+h1{
+    margin: 0.5rem;
+    font-size: 2rem;
+}

@@ -1,0 +1,37 @@
+body, html{
+    height: 100%;
+    width: 100%;
+}
+.linha {
+    display: flex;
+    flex-direction: row;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    align-items: center;
+}
+ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.botao{
+    font-size: 1rem;
+}
+
+/* ELEMENTOS DO HEADER*/
+nav{
+    justify-content: center;
+}
+#logo{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+h1{
+    margin: 0.5rem;
+    font-size: 2rem;
+}

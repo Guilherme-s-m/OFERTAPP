@@ -1,0 +1,23 @@
+body, html{
+    height: 100%;
+    width: 100%;
+}
+main{
+    margin: 2rem;
+}
+
+/* ELEMENTOS DO HEADER*/
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#logo{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+h1{
+    margin: 0.5rem;
+    font-size: 2rem;
+}

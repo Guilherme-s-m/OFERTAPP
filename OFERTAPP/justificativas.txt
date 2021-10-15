@@ -1,0 +1,78 @@
+ESSAS FORAM AS MAIORES MUDANÇAS, SE NÃO TIVEREM SIDO TODAS, REALIZADAS AOS DOCUMENTOS HTML.
+
+
+Em todos os arquivos html foi feita uma modificação no header, colocando a img e o título dentro de um nav:
+
+ANTES:
+<h1>
+    <img id='logo' src="Img/menu.png" alt="Ícone de menu" style="width:30px;height:30px;">
+    OFERTAPP
+</h1>
+
+DEPOIS:
+<nav>
+    <img id='logo' src="Img/menu.png" alt="Ícone de menu" style="width:50px;height:50px;">
+    <h1>OFERTAPP</h1>
+</nav>
+
+
+
+Uma outra modificação realizada no index foi colocar cada um dos ícones e botões dentro de uma lista:
+
+ANTES:
+<img alt="Ícone de pin" src="Img/pin.png" style="width:30px;height:30px;"/>
+    <button type="button" onclick="window.location.href='2Localizar_mercado.html'">Localizar Supermercado</button>
+    <br>
+
+DEPOIS:
+<ul class='linha'>
+    <li><img alt="Ícone de pin" src="Img/pin.png" style="width:50px;height:50px;"/></li>
+    <li><button class='botao' type="button" onclick="window.location.href='2Localizar_mercado.html'">Localizar Supermercado</button></li>
+</ul>
+
+
+
+Nos html "2Localizar_mercado" e "2Procurar_produto" também ocorreu uma mudança, foram tirados os "fieldset", que faziam uma separação, e 
+os elementos foram colocados em listas.
+
+ANTES:
+<fieldset>
+    <h3>
+        Supermercado B
+    </h3>
+    <p>PRODUTO X2 1KG</p>
+    <p>R$ 5,69</p>
+    <p>Rua do Supermercado, número 1 </p>
+    <a href="3Escolher_produto.html">Ver mais sobre o produto</a>
+</fieldset>
+
+DEPOIS:
+<ul>
+    <li class='nome'><h3>Supermercado B</h3></li>
+    <li><p>PRODUTO X2 1KG</p></li>
+    <li><p>R$ 5,69</p></li>
+    <li><p>Rua do Supermercado, número 1 </p></li>
+    <li class='link'><a href="3Escolher_produto.html">Ver mais sobre o produto</a></li>
+</ul>
+
+
+
+Nos html "3Escolher_produto", "3Escolher_mercado" e "3Outras_promocoes" haviam botões para outras páginas, mas não tinha link para fazer a 
+transição da tela.
+
+ANTES:
+<button type="button">Adicionar à lista</button>
+
+DEPOIS:
+<button class='botao' type="button" onclick="window.location.href='2Ver_lista.html'">Adicionar à lista</button>
+
+
+
+Outra mudança realizada foi nas páginas em que havia um tracejado, ligando uma informação a outra, como o produto ao preço. Foi mudado para o 
+uso do <span>
+
+ANTES:
+<h3>Arroz ------------ R$8,99</h3>
+
+DEPOIS:
+<h3>Arroz <span> </span> R$8,99</h3>
